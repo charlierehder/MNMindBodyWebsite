@@ -5,3 +5,6 @@ def home(request):
 
 def blog(request):
     return render(request, 'main/blog.html')
+
+def gallery(request):
+    return render(request, 'main/gallery.html')
